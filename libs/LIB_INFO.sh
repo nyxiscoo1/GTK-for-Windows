@@ -120,7 +120,7 @@ PANGO_DL_ADDR=https://download.gnome.org/sources/pango/${PANGO_VERSION%.*}/pango
 export PANGO_TARBALL_NAME=$(basename "$PANGO_DL_ADDR")
 export PANGO_FOLDER_NAME="${PANGO_TARBALL_NAME%.*.*}"
 
-GTK_VERSION=3.21.2
+GTK_VERSION=3.18.9
 GTK_DL_ADDR=https://download.gnome.org/sources/gtk+/${GTK_VERSION%.*}/gtk+-$GTK_VERSION.tar.xz
 export GTK_TARBALL_NAME=$(basename "$GTK_DL_ADDR")
 export GTK_FOLDER_NAME="${GTK_TARBALL_NAME%.*.*}"
@@ -135,7 +135,7 @@ ICON_NAMING_UTILS_DL_ADDR=http://tango.freedesktop.org/releases/icon-naming-util
 export ICON_NAMING_UTILS_TARBALL_NAME=$(basename "$ICON_NAMING_UTILS_DL_ADDR")
 export ICON_NAMING_UTILS_FOLDER_NAME="${ICON_NAMING_UTILS_TARBALL_NAME%.*.*}"
 
-ADWAITA_VERSION=3.21.2
+ADWAITA_VERSION=3.18.0
 ADWAITA_ICON_THEME_DL_ADDR=https://download.gnome.org/sources/adwaita-icon-theme/${ADWAITA_VERSION%.*}/adwaita-icon-theme-$ADWAITA_VERSION.tar.xz
 export ADWAITA_ICON_THEME_TARBALL_NAME=$(basename "$ADWAITA_ICON_THEME_DL_ADDR")
 export ADWAITA_FOLDER_NAME="${ADWAITA_ICON_THEME_TARBALL_NAME%.*.*}"
